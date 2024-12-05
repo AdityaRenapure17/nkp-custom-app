@@ -2,7 +2,9 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: sample-metrics-app-defaults
+  namespace: worker-cluster-wxgnf-hhk77
 data:
   values.yaml: |
     serviceMonitor:
       enabled: true
+
